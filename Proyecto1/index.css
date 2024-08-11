@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#Arriba{
+    display: flex;
+}
+
+.Multi{
+    background-color:#000000 ;
+    width: 26vh;
+    padding-top: 0.5vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    margin-left: 18vh;
+    color: rgb(217, 185, 38);
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 8vh;
+}
+
+.Shop{
+    background-color:rgb(217, 185, 38);
+    padding-top: 0.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: black;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 8vh;
+}
+
+#MultiShop{
+    display: flex;
+}
+
+#Barra{
+    display: flex;
+}
+
+.Busqueda{
+    margin-left:75vh;
+    margin-top: 1.5vh;
+    margin-bottom:1.5vh;
+    background-color: white;
+    width: 121vh;
+}
+
+#Lupa{
+    height: 7.8vh;
+    margin-top: 1.4vh;
+    background-color: white;
+}
+
+#Customer{
+    margin-left: 107vh;
+    font-size: 3.5vh;
+}
+#Numero{
+    margin-left: 104vh;
+    font-weight: 800;
+}
+
+#Servicio{
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+}
+
+#Menu{
+    background-color:rgb(53, 72, 72);
+    width: 450vh;
+    margin-top: 5vh;
+    height: 17vh;
+}
+
+#Categoria{
+    height: 17vh;
+    width: 90vh;
+    margin-left: 20vh;
+    font-family: Inter;
+    background-color: rgb(217, 185, 38);
+    font-weight: 600;
+    font-size: 4.5vh;
+}
