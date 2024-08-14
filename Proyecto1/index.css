@@ -5,35 +5,37 @@
 }
 
 .Multi{
-    background-color:#000000 ;
-    width: 50%;
+    background-color:rgb(55, 62, 62);
+    width: 90px;
     padding-top: 0.5px;
-    padding-left: 1px;
-    margin-left: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: rgb(217, 185, 38);
-    font-family: Inter;
-    font-weight: 100;
-    font-size: 25px;
 }
 
 .Shop{
     background-color:rgb(217, 185, 38);
-    width: 50%;
+    width: 80px;
     padding-top: 0.5px;
-    padding-left: 1px;
-    padding-right: 1px;
-    color: black;
-    font-family: Inter;
-    font-weight: 100;
-    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(55, 62, 62);
 }
 
 #MultiShop{
+    margin-left: 18px;
     display: flex;
+    margin-right: 20%;
+    font-family: Inter;
+    font-weight: 1000;
+    font-size: 28px;
 }
 
 #Barra{
     display: flex;
+    align-items: center;
+    margin-right: 25%;
+    
 }
 
 .Busqueda{
@@ -41,22 +43,29 @@
     margin-top: 1.5px;
     margin-bottom:1.5px;
     background-color: white;
-    width: 121px;
+    width: 500px;
+    height: 22px;
+    border-width: 0.3px;
+    border-color: darkgray;
 }
 
 #Lupa{
-    height: 7.8px;
-    margin-top: 1.4px;
+    height: 25.9px;
     background-color: white;
+    color: rgb(217, 185, 38);
+    border-width: 0.3px;
+    border-color: darkgray;
 }
 
 #Customer{
     margin-left: 107px;
-    font-size: 30.5px;
+    font-size: 12px;
 }
+
 #Numero{
-    margin-left: 104px;
-    font-weight: 800;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 #Servicio{
@@ -66,10 +75,10 @@
 }
 
 #Menu{
-    background-color:rgb(53, 72, 72);
-    width: 100%;
-    margin-top: 5px;
-    height: 17px;
+    background-color:rgb(55, 62, 62);
+    width: 1900px;
+    margin-top: 15px;
+    height: 50px;
     display: flex;
 }
 
@@ -78,19 +87,21 @@
     background-color: rgb(217, 185, 38);
     border: none;
     font-weight: 600;
-    font-size: 4.5px;
-    margin-top: 5px;
+    font-size: 12px;
 }
 
 #BarraCategoria{
-    height: 17px;
-    width: 90px;
-    margin-left: 20px;
+    height: 50px;
+    width: 250px;
+    margin-left: 40px;
     background-color: rgb(217, 185, 38);
+    align-content: center;
 }
 
 #IconoCategoria{
     margin-left: 6px;
+    display: flex;
+    align-items: center;
 }
 
 #BotonesPrincipales{
@@ -100,7 +111,7 @@
 
 .Botones{
     font-family: Inter;
-    background-color:rgb(53, 72, 72);
+    background-color:rgb(55, 62, 62);
     border:none;
     color: white;
     cursor: pointer;
@@ -113,13 +124,11 @@
 
 #MercadoCorazon{
     align-content: center;
-    margin-left: 39%;
+    margin-left: 58.5%;
     color:rgb(217, 185, 38);
     display: flex;
     align-items: center;
-    
 }
-
 
 .Circulo{
     position: relative;
@@ -129,12 +138,37 @@
 
 .Valor0{
     color: white;
-    margin-left: 1px;
-    z-index: 2;
-    font-size:4px;
+    font-size:12px;
     position: absolute;
-    margin-left: 7.1px;
+    margin-left: 22px;
 }
+
+#Imagenes{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#Imagen1{
+   width: 50%;
+   margin-right: 120px;
+}
+
+#ImagenesColumna{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+
+}
+
+.Imagen2{
+    transform: scale(0.40);
+}
+
+
+
+
+
 
 
 
