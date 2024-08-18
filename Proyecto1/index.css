@@ -1,21 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    background-color: rgb(237, 236, 236);
+    margin: 0px;
+}
 
 #Arriba{
     display: flex;
+    background-color: white;
+    height: 50px;
 }
 
 .Multi{
     background-color:rgb(55, 62, 62);
     width: 90px;
+    height: 35px;
     padding-top: 0.5px;
     padding-left: 5px;
     padding-right: 5px;
     color: rgb(217, 185, 38);
+    
 }
 
 .Shop{
     background-color:rgb(217, 185, 38);
     width: 80px;
+    height: 35px;
     padding-top: 0.5px;
     padding-left: 5px;
     padding-right: 5px;
@@ -23,6 +32,7 @@
 }
 
 #MultiShop{
+    margin-top: 7px;
     margin-left: 18px;
     display: flex;
     margin-right: 20%;
@@ -69,6 +79,7 @@
 }
 
 #Servicio{
+    margin-top: 7px;
     display: flex;
     flex-direction: column;
     font-family: Inter;
@@ -77,9 +88,8 @@
 #Menu{
     background-color:rgb(55, 62, 62);
     background-size: cover;
-    width: 1900px;
-    margin-top: 15px;
     height: 50px;
+    width: 100%;
     display: flex;
 }
 
@@ -132,7 +142,6 @@
 }
 
 .Circulo{
-    position: relative;
     margin-left: 1px;
     color: white;
 }
@@ -140,8 +149,8 @@
 .Valor0{
     color: white;
     font-size:12px;
-    position: absolute;
     margin-left: 22px;
+    position: absolute;
 }
 
 #Imagenes{
@@ -150,7 +159,6 @@
     margin-left: 40px;
     font-family: Inter;
     color: white;
-    
 }
 
 #Imagen1{
@@ -178,23 +186,69 @@
     margin-top: 10px;
     height: 35px;
     width: 100px;   
-    cursor: pointer;
-}
-
-#Imagen1 button :hover{
-    color:rgb(217, 185, 38);
 }
 
 #ImagenesColumna{
     display: flex;
     flex-direction: column;
-    height: 50px;
 }
 
 .Imagen2{
     margin-bottom: 40px;
-    zoom: 47.5%;
+    width: 1000px;
+    height: 428px;
+    zoom: 48%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 1000;
 }
+
+.Imagen2 p{
+    font-size: 45px;
+    width: 40%;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.Imagen2 button{
+    background-color: rgb(217, 185, 38);
+    color: black;
+    border: none;
+    margin-top: 10px;
+    height:65px;
+    width: 150px; 
+    font-size: 25px;
+}
+
+#Abajo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 130px;
+}
+
+.BotonesAbajo{
+    text-align: left;
+    width: 330px;
+    height: 90px;
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.BotonesAbajo i{
+    color: rgb(217, 185, 38);
+    scale: 2;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+
 
 
 
