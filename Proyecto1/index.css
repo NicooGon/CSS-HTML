@@ -76,6 +76,7 @@
 
 #Menu{
     background-color:rgb(55, 62, 62);
+    background-size: cover;
     width: 1900px;
     margin-top: 15px;
     height: 50px;
@@ -147,22 +148,52 @@
     display: flex;
     margin-top: 30px;
     margin-left: 40px;
+    font-family: Inter;
+    color: white;
+    
 }
 
 #Imagen1{
-   width: 50%;
-   margin-right: 120px;
+   margin-right: 40px;
+   width: 65%;
+   height: 346px;
+   zoom: 124%;
+   font-size: 50px;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#Imagen1 p{
+    font-size: 12px;
+    width: 40%;
+    text-align: center;
+}
+
+#Imagen1 button{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-top: 10px;
+    height: 35px;
+    width: 100px;   
+    cursor: pointer;
+}
+
+#Imagen1 button :hover{
+    color:rgb(217, 185, 38);
 }
 
 #ImagenesColumna{
     display: flex;
     flex-direction: column;
     height: 50px;
-
 }
 
 .Imagen2{
-    transform: scale(0.40);
+    margin-bottom: 40px;
+    zoom: 47.5%;
 }
 
 
