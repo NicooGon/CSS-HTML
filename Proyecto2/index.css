@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#principal {
+    display: flex;
+    background-color: white;
+    font-family: Inter;
+    width: 100%;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+#ProgramaYa{
+    width: 50%;
+    font-size: 23px;
+    font-weight: 700;
+    color: blueviolet;
+}
+
+#info a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+#seccion1{
+    height: 860px;
+    color: white;
+    font-family: Inter;
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#imagen1{
+    filter: brightness(40%);
+    height: 100%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+#sec1info{
+    text-align: center;
+    width: 45%;
+    position: relative;
+    z-index: 1;
+}
+
+#sec1boton{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+#sec1boton button{
+    background-color: blueviolet;
+    color: white;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 501;
+    padding: 7px 20px;
+}
+
+#seccion2{
+    width: 100%;
+    height: 1000px;
+}
+
