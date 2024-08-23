@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body style="margin: 0;">
+    <div id="titulo">
+        <h1>Juego de Memoria</h1>
+    </div>
+    <div id="base">
+        <div id="colores">
+            <button onclick="cambiarColor(event)" class="boton" id="rojo"></button>
+            <button onclick="cambiarColor(event)" class="boton" id="azul"></button>
+            <button onclick="cambiarColor(event)" class="boton" id="verde"></button>
+            <button onclick="cambiarColor(event)" class="boton" id="amarillo"></button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMException",function()
+        {
+            const colors = ["red", "blue", "green", "black"];
+            const sequence = [];
+            let userSequence = [];
+            let level = 1;
+            let canClick = false;
+
+            function cambiarColor(event)
+            {
+                event.target.style.opacity = "0.40";
+                setTimeout(()=>
+                {
+                    event.target.style.opacity = "1";
+                }, 300);
+            }
+        })
+        
+    </script>
+</body>
+</html>
+
+
+
