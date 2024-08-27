@@ -224,3 +224,78 @@
     display: flex;
     justify-content: left;
 }
+
+#seccion4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 720px;
+    background-color: white;
+}
+
+#textoS4{
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight:bolder;
+}
+
+#imagenS4{
+    height: 380px;
+    width: 25%;
+    background-size: cover;
+}
+
+#seccion5{
+    height: 720px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textoS5{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+}
+
+#textoS5 p{
+    font-size: 65px;
+    font-weight: 600;
+}
+
+#botonS5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonS5 button{
+    background-color:blueviolet ;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+#pie-de-pagina{
+    background-color: white;
+    height: 130px;
+    display: flex;
+    justify-content: right;
+    align-items:last baseline;
+}
+
+#textoPie{
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  height: 40%;
+  font-family: Inter;
+  color: gray;
+  font-size: 18.5px;
+  font-weight: bold;
+}
