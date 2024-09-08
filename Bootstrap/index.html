@@ -12,7 +12,7 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
-            <div class="row" style="font-family: Arial, Helvetica, sans-serif;">
+            <div class="row row-sm-3" style="font-family: Arial, Helvetica, sans-serif;">
                 <div class="col-3 min-vh-100 d-flex flex-column justify-content-evenly align-items-center" id="info" >
                     <div class="d-flex justify-content-center circle rounded-circle" style=" background-size: cover; background-position: center; width: 14vw; height: 14vw; background-image: url('./Media/Imagen de WhatsApp 2024-08-28 a las 08.24.29_20e0bb69.jpg');"></div>
                     <div id="personalInfo" class="text-break d-flex flex-column justify-content-around " style="height: 40%;" >
@@ -41,22 +41,37 @@
                     </div>
               </div>
 
-              <div class="col-9 min-vh-100 d-flex flex-column justify-content-between align-items-center" id="career">
-                <div id="studies" class="text-break d-flex flex-column" style="font-size: 24px;">
-                    <h3 style="font-weight: bold; font-size: 40px;" >Studies</h3>
-                    <div>
-                        <i class="fa-solid fa-circle-arrow-right"></i><label for="">Colegio Virgen del Santander</label>
+              <div class="col-9 min-vh-100 d-flex flex-column justify-content-evenly align-items-center text-break " id="career">
+                    <div style="font-size: 25px;">
+                        <h3 style="font-weight: bold; font-size: 50px;" >Studies</h3>
+                        <div>
+                            <i class="fa-solid fa-circle-arrow-right"></i><label for="">Colegio Virgen del Santander</label>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-circle-arrow-right"></i><label for="">Liceo Padre Domingo</label>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-circle-arrow-right"></i><label for="">Universidad Catolica del Uruguay</label>
+                        </div>
                     </div>
-                    <div>
-                        <i class="fa-solid fa-circle-arrow-right"></i><label for="">Liceo Padre Domingo</label>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-circle-arrow-right"></i><label for="">Universidad Catolica del Uruguay</label>
-                    </div>
-                <div id="proyects" class="" style="background-image: url('./Media/64e79ca5aff2fb7295bfddf9_github-que-es.jpg'); height: 300px; width: 300px; background-position: center; background-size: cover;">
-
+                <div id="proyects" class="" onclick="boton()" style="background-image: url('./Media/64e79ca5aff2fb7295bfddf9_github-que-es.jpg'); height: 30vh; width: 30vh; background-position: center; background-size: cover;"></div>
+            <div class="d-flex flex-column text-break">
+                <div style="font-size: 20px;">
+                    <Label>Contact Me</Label>
                 </div>
+                
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
             </div>
+            </div>
+            <script>
+                function boton()
+                {
+                    window.open("https://github.com/NicooGon/CSS-HTML.git");
+                }
+            </script>
     
 </body>
 </html>
