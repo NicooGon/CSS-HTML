@@ -11,13 +11,13 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
-            <div class="row d-flex flex-column flex-md-row" style="font-family: Arial, Helvetica, sans-serif;">
+            <div class="row d-flex flex-column flex-md-row " style="font-family: Arial, Helvetica, sans-serif;">
                 <div class="col-12 col-md-3 min-vh-100 d-flex flex-column justify-content-evenly align-items-center" id="info" >
                     <div class="d-flex justify-content-center circle rounded-circle" style=" background-size: cover; background-position: center; width: 14vw; height: 14vw; background-image: url('./Media/Imagen de WhatsApp 2024-08-28 a las 08.24.29_20e0bb69.jpg');"></div>
                     <div id="personalInfo" class="text-break d-flex flex-column justify-content-around " style="height: 40%;" >
                         <div id= "data" class="">
-                            <h3 style="font-weight: bold; font-size: 30px;">Personal Information</h3>
-                            <div style="font-size: 25px;">
+                            <h3 class="fs-2 fw-bold">Personal Information</h3>
+                            <div class="fs-3">
                                 <div>
                                     <i class="fa-solid fa-circle-arrow-right"></i> <label class="">Nicolas Gonzalez</label>
                                 </div>
@@ -31,9 +31,9 @@
                             
                         </div>
 
-                        <div id="skills" class="text-break d-flex flex-column" style="font-size: 30px;">
-                            <h3 style="font-weight: bold;">SKILLS</h3>
-                            <div style="font-size: 25px;">
+                        <div id="skills" class="text-break d-flex flex-column fs-2">
+                            <h3 class="fw-bold">SKILLS</h3>
+                            <div class="fs-3">
                                 <div>
                                     <i class="fa-solid fa-circle-arrow-right"></i> <label>Ingles Intermedio</label>
                                 </div>
@@ -46,8 +46,8 @@
               </div>
 
               <div class="col-12 col-md-9 min-vh-100 d-flex flex-column justify-content-evenly align-items-center text-break " id="career" style="background-color: rgba(245, 245, 245, 0.848);">
-                    <div style="font-size: 25px;">
-                        <h3 style="font-weight: bold; font-size: 50px;" >Studies</h3>
+                    <div class="fs-3">
+                        <h3 class="fw-bold fs-2" >Studies</h3>
                         <div>
                             <i class="fa-solid fa-circle-arrow-right"></i><label for="">Colegio Virgen del Santander</label>
                         </div>
@@ -63,11 +63,13 @@
                 <div style="font-size: 22px; font-weight: bold;">
                     <Label>Contact Me</Label>
                 </div >
+                <form action="" onsubmit="inputNull()" class="d-flex flex-column">
                     <input type="text" placeholder="Nombre" class="input" id="nombreFormulario">
                     <input type="text" placeholder="Apellido" class="input" id="apellidoFormulario">
                     <input type="text" placeholder="Email" class="input" id="emailFormulario">
                     <input type="number" placeholder="Telefono" class="input">
-                    <button style="background-color:lightblue ;" onclick="inputNull()">Enviar</button>
+                    <button style="background-color:lightblue ;">Enviar</button>
+                </form>
                 </div>
 
             </div>
