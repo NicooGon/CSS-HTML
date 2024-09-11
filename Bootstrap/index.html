@@ -46,7 +46,7 @@
               </div>
 
               <div class="col-12 col-md-9 min-vh-100 d-flex flex-column justify-content-evenly align-items-center text-break " id="career" style="background-color: rgba(245, 245, 245, 0.848);">
-                    <div style="font-size: 25px;">
+                    <div class="fs-3">
                         <h3 style="font-weight: bold; font-size: 50px;" >Studies</h3>
                         <div>
                             <i class="fa-solid fa-circle-arrow-right"></i><label for="">Colegio Virgen del Santander</label>
@@ -59,20 +59,22 @@
                         </div>
                     </div>
                 <div id="proyects" class="" onclick="boton()" style="background-image: url('./Media/64e79ca5aff2fb7295bfddf9_github-que-es.jpg'); height: 30vh; width: 30vh; background-position: center; background-size: cover;"></div>
-            <div class="d-flex flex-column text-break">
-                <div style="font-size: 22px; font-weight: bold;">
-                    <Label>Contact Me</Label>
-                </div >
-                    <input type="text" placeholder="Nombre" class="input" id="nombreFormulario">
-                    <input type="text" placeholder="Apellido" class="input" id="apellidoFormulario">
-                    <input type="text" placeholder="Email" class="input" id="emailFormulario">
-                    <input type="number" placeholder="Telefono" class="input">
-                    <button style="background-color:lightblue ;" onclick="inputNull()">Enviar</button>
+            
+                <div class="col-3 d-flex flex-column text-break">
+                    <div class="fs-3 fw-bold">
+                        <Label>Contact Me</Label>
+                    </div >
+                        <input type="text" placeholder="Nombre" class="input" id="nombreFormulario">
+                        <input type="text" placeholder="Apellido" class="input" id="apellidoFormulario">
+                        <input type="text" placeholder="Email" class="input" id="emailFormulario">
+                        <input type="number" placeholder="Telefono" class="input">
+                        <button style="background-color:lightblue ;" onclick="inputNull()">Enviar</button>
+                    </div>
                 </div>
+            </div>
 
-            </div>
-            </div>
             <script>
+                
                 function boton()
                 {
                     window.open("https://github.com/NicooGon/CSS-HTML.git");
@@ -106,10 +108,6 @@
                         alert('Se introdujo el mail de manera incorrecta');
                     }
                 }
-
-                
-                
             </script>
-    
 </body>
 </html>
